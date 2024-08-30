@@ -1,0 +1,11 @@
+.header_menu_item > a {
+    color:white;
+    text-decoration: none;
+}
+.header_menu_item > a:hover {
+    color: rgb(154, 111, 232);
+    transition: color 700ms linear;
+}
+.active {
+    border-bottom: 3px solid rgb(154, 111, 232);
+}

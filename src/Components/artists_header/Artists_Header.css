@@ -1,0 +1,35 @@
+.artists_header {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:100px 20px;
+}
+
+.artists_icon {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.artists_icon>svg {
+    width: 50px;
+    height: 30px;
+}
+
+.artists_icon>svg:last-child {
+    width: 30px;
+    height: 30px;
+}
+
+.artists_header>h1 {
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.artists_header>p {
+    max-width: 600px;
+    font-size:25px;
+}

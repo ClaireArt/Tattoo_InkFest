@@ -1,0 +1,26 @@
+.info_header {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding:200px 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.info_header_icon {
+    display:flex;
+    gap:20px;
+}
+.info_header_icon > svg {
+    width:30px;
+    height:30px;
+}
+.info_header > h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+.info_header > p {
+    font-size:25px;
+    max-width:800px;
+}
